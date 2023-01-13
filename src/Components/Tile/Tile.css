@@ -1,14 +1,8 @@
-#chessBoard {
-  background-color: #779556;
-  width: 800px;
-  height: 800px;
-  display: grid;
-  grid-template-columns: repeat(8, 100px);
-}
-
 #chessBoard .tile {
   width: 100px;
   height: 100px;
+  display: grid;
+  place-content: center;
 }
 
 #chessBoard .black-tile {
@@ -16,4 +10,8 @@
 }
 #chessBoard .white-tile {
   background: #ebecd0;
+}
+
+.tile img {
+  width: 80px;
 }
